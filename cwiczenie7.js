@@ -1,3 +1,4 @@
-var buffer = new Buffer("mój bufor");
+var buffer = new Buffer("macki jest fajny");
 buffer.write('jacek');
-console.log(buffer);
+console.log(buffer.toString());
+console.log(buffer.toJSON());
